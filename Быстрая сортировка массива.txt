@@ -1,0 +1,142 @@
+/*Прототип функции:
+public static void QuickSort(int[] array)
+Размер массива можно получить, обратившись к array.Length .
+Для генерации случайных чисел воспользуйтесь классом Random
+var rnd = new Random();
+rnd.Next(); // возвращает случайное число от 0 до int.MaxValue
+rnd.Next(0, 5); // возвращает случайное число от 0 до 4 включительно
+Нужно реализовать следующие проверки:
+Сортировка массива из трёх элементов. После сортировки второй элемент больше первого, третий больше второго
+Сортировка массива из 100 одинаковых числе работает корректно
+Сортировка массива из 1000 случайных элементов. Проверить что 10 случайных пар элементов массива после сортировки упорядочены (их пары больший тот, чей индекс больше)
+Сортировка пустого массива работает корректно
+Сортировка массива из 1 500 000 000 элементов работает корректно (если на вашем компьютере 8+ Гб памяти)*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void HoareSort(int[] array, int start, int end)
+        {
+            var temp = array[(end - start) / 2 + start];
+            if (end == start) return;
+            var pivot = array[end];
+            var storeIndex = start;
+            for (int i = start; i <= end - 1; i++)
+                if (array[i] <= pivot)
+                {
+
+                    array[i] = array[storeIndex];
+                    array[storeIndex] = temp;
+                    storeIndex++;
+                }
+
+            var n = array[storeIndex];
+            array[storeIndex] = array[end];
+            array[end] = n;
+            if (storeIndex > start) HoareSort(array, start, storeIndex - 1);
+            if (storeIndex < end) HoareSort(array, storeIndex + 1, end);
+        }
+        static void HoareSort(int[] array)
+        {
+            if (array.Length == 0)
+            {
+                int[] temp = new int[0];
+            }
+            else
+                HoareSort(array, 0, array.Length - 1);
+        }
+        public static void Main()
+        {
+            TestSortingThreeElements();
+            TestSortingHundredIdenticalElements();
+            TestSortThousandRandomElements();
+            TestSortEmptyArray();
+            //TestSortHugeArray();//памяти не хватает :с
+
+        }
+        //Сортировка массива из трёх элементов. После сортировки второй элемент больше первого, третий больше второго
+        private static void TestSortingThreeElements()
+        {
+            int[] array = new[] { 6, 2, 5, };
+            HoareSort(array);
+            if (array[1] > array[0] && array[2] > array[1])
+                Console.WriteLine("Сортировка массива из трёх элементов работает корректно");
+            else Console.WriteLine("Сортировка массива из трёх элементов работает некорректно");
+        }
+        //Сортировка массива из 100 одинаковых числе работает корректно
+        private static void TestSortingHundredIdenticalElements()
+        {
+            int f = 0;
+            var array = new int[100];
+            for (int i = 0; i < array.Length; i++)
+                array[i] = 1;
+            HoareSort(array);
+            if (array[0] > array[array.Length - 1])
+                f = 1;
+            if (f == 0) Console.WriteLine("Сортировка массива из 100 одинаковых чисел работает корректно");
+            else Console.WriteLine("Сортировка массива из 100 одинаковых чисел работает некорректно");
+        }
+        //Сортировка массива из 1000 случайных элементов. Проверить что 10 случайных пар элементов массива после сортировки упорядочены (их пары больший тот, чей индекс больше)
+        private static void TestSortThousandRandomElements()
+        {
+            var rnd = new Random();
+            var array = new int[1000];
+            int f = 0;
+            for (int i = 0; i < array.Length; i++)
+                array[i] = rnd.Next(0, 999);
+            HoareSort(array);
+
+            for (int i = 0; i < 10; i++)
+            {
+                var j = rnd.Next(0, 998);
+                if (array[j] > array[j + 1])
+                {
+                    f = 1;
+                    break;
+                }
+            }
+            if (f == 0) Console.WriteLine("Сортировка массива из 1000 случайных элементов работает корректно");
+            else Console.WriteLine("Сортировка массива из 1000 случайных элементов работает некорректно");
+        }
+        //Сортировка пустого массива 
+        private static void TestSortEmptyArray()
+        {
+            int[] array = new int[0];
+            int[] pass = new int[0];
+            HoareSort(array);
+            if (array.SequenceEqual(pass) != true)
+                Console.WriteLine("! Сортировка пустого массива работает неверно !");
+            else
+                Console.WriteLine("Сортировка пустого массива работает корректно");
+        }
+        //Сортировка массива из 1 500 000 000 элементов работает корректно (если на вашем компьютере 8+ Гб памяти)
+        /* private static void TestSortHugeArray()                     //памяти не хватает :с
+         {
+             int f = 0;
+             var rand = new Random();
+             int[] array = new int[1500000000]; 
+             for (int i = 0; i < array.Length; i++)
+                 array[i] = rand.Next(0, 149999999);
+             HoareSort(array);
+             for (int i = 0; i < array.Length - 1; i++)
+             {
+                 if (array[i]> array[i + 1])
+                 {
+                     f=1;
+                     break;
+                 }
+             }
+             if (f == 0) Console.WriteLine("Сортировка массива из 1 500 000 000 элементов работает корректно");
+             else Console.WriteLine("Сортировка массива из 1 500 000 000 элементов работает некорректно");
+         }*/
+
+    }
+}
+
