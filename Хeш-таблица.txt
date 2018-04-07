@@ -34,12 +34,7 @@ namespace HashTable
             }
 
             list[bucketNo].Add(new KeyValuePair {Key = key, Value = value});
-        }
-        /// <summary> 
-        /// Поиск значения по ключу 
-        /// summary> 
-        /// key">Ключ 
-        /// <returns>Значение, null если ключ отсутствуетreturns> 
+        }        
         public object GetValueByKey(object key)
         {
             var BucketNo = GetBucketNumber(key);
