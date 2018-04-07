@@ -1,0 +1,127 @@
+using System;
+using System.Collections.Generic;
+
+namespace HashTable
+{
+    public class HashTable
+    {
+        public HashTable(int size)
+        {
+            list = new List<List<KeyValuePair>>();
+            for (int i = 0; i < size; i++)
+            {
+                list.Add(new List<KeyValuePair>());
+            }
+        }
+        class KeyValuePair
+        {
+            public object Key { get; set; }
+            public object Value { get; set; }
+        }
+
+        List<List<KeyValuePair>> list;
+       
+        public void PutPair(object key, object value)
+        {
+            var bucketNo = GetBucketNumber(key);
+            foreach (var kvp in list[bucketNo])
+            {
+                if (Equals(kvp.Key, key))
+                {
+                    kvp.Value = value;
+                    return;
+                }
+            }
+
+            list[bucketNo].Add(new KeyValuePair {Key = key, Value = value});
+        }
+        /// <summary> 
+        /// Поиск значения по ключу 
+        /// summary> 
+        /// key">Ключ 
+        /// <returns>Значение, null если ключ отсутствуетreturns> 
+        public object GetValueByKey(object key)
+        {
+            var BucketNo = GetBucketNumber(key);
+            foreach (var kvp in list[BucketNo])
+            {
+                if (Equals(kvp.Key, key))
+                {
+                    return kvp.Value;
+                }
+            }
+
+            return null;
+        }
+
+        private int GetBucketNumber(object key)
+        {
+            return Math.Abs(key.GetHashCode()) % list.Count;
+        }
+    }
+}
+Тесты:
+using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace HashTableTests
+{
+    [TestClass]
+    public class HashTableTests
+    {
+        //Добавление трёх элементов, поиск трёх элементов
+        [TestMethod]
+        public void TestThreeElements()
+        {
+            var ht = new HashTable.HashTable(3);
+
+            ht.PutPair("1", "Один");
+            ht.PutPair("2", "Два");
+            ht.PutPair("3", "Три");
+
+            Assert.AreEqual(ht.GetValueByKey("1"), "Один");
+            Assert.AreEqual(ht.GetValueByKey("2"), "Два");
+            Assert.AreEqual(ht.GetValueByKey("3"), "Три");
+        }
+        //Добавление одного и того же ключа дважды с разными значениями сохраняет последнее добавленное значение
+        [TestMethod]
+        public void TestTwoEquialsElements()
+        {
+            var ht = new HashTable.HashTable(3);
+
+            ht.PutPair("1", "Один");
+            ht.PutPair("1", "Два");
+
+            Assert.AreEqual(ht.GetValueByKey("1"), "Два");
+        }
+        //Добавление 10000 элементов в структуру и поиск одного из них
+        [TestMethod]
+        public void TestBigList()
+        {
+            var ht = new HashTable.HashTable(10000);
+
+            for (int i = 0; i < 10000; i++)
+            {
+                ht.PutPair(i, i + "Один");
+            }
+
+            Assert.AreEqual(ht.GetValueByKey(55), "55Один");
+        }
+        //Добавление 10000 элементов в структуру и поиск 1000 недобавленных ключей, поиск которых должен вернуть null
+        [TestMethod]
+        public void TestSearchElementsBigList()
+        {
+            var ht = new HashTable.HashTable(10000);
+
+            for (int i = 0; i < 10000; i++)
+            {
+                ht.PutPair(i, i + "Один");
+            }
+
+            for (int i = 10000; i < 11000; i++)
+            {
+                Assert.AreEqual(ht.GetValueByKey(i), null);
+            }
+        }
+    }
+}
