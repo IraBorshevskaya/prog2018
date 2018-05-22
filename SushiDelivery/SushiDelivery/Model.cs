@@ -4,6 +4,11 @@ using System.Runtime.InteropServices;
 
 namespace SushiDelivery
 {
+     public class Model
+     {
+         static void Main()
+         { }
+     }
     /// <summary>
     /// Информация о заказе
     /// </summary>
@@ -16,7 +21,7 @@ namespace SushiDelivery
         /// <summary>
         /// Заказ
         /// </summary>
-        public List<Order> Order { get; set; }
+        public List<Order> Orders { get; set; }
         /// <summary>
         /// ФИО заказчика
         /// </summary>
@@ -28,14 +33,18 @@ namespace SushiDelivery
         /// <summary>
         /// Стоимость
         /// </summary>
-        public double Price { get; set; }
+        public decimal Price { get; set; }
         public Currency Currency { get; set; }
+        /// <summary>
+        ///Количество столовых приборов
+        /// </summary>
+        public int NumberСutlery { get; set; }
 
     }
     public class Order
     {
-        public List<Sushi> Sushi { get; set; }
-        public List<Sushi> Drinks { get; set; }
+        public Sushi Sushi { get; set; }
+        public Drinks Drinks { get; set; }
     }
     public class Sushi
     {
@@ -46,11 +55,12 @@ namespace SushiDelivery
         /// <summary>
         /// Дополнение к суши
         /// </summary>
-        public Addition Addition { get; set; }
+        public Addition Addition { get; set; }      
         /// <summary>
-        ///Количество столовых приборов
+        ///Количество суши
         /// </summary>
-        public double NumberСutlery { get; set; }
+        public double NumberSushi { get; set; }
+        public double NumberAddition { get; set; }
     }
 
     public class Drinks
@@ -58,7 +68,11 @@ namespace SushiDelivery
         /// <summary>
         /// Напитки
         /// </summary>
-        public Drinks NameDrinks { get; set; }
+        public NameDrinks NameDrinks { get; set; }
+        /// <summary>
+        ///Количество напитков
+        /// </summary>
+        public double NumberDrinks { get; set; }
     }
     /// <summary>
     /// Названия суши

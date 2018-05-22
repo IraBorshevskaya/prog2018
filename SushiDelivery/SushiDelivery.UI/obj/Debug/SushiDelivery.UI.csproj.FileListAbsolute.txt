@@ -1,0 +1,42 @@
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csprojResolveAssemblyReference.cache
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.Form1.resources
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.Properties.Resources.resources
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.GenerateResource.cache
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CoreCompileInputs.cache
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe.config
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.pdb
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.exe
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.exe.config
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CopyComplete
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.exe
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.pdb
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csprojResolveAssemblyReference.cache
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.Form1.resources
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.Properties.Resources.resources
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.GenerateResource.cache
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CoreCompileInputs.cache
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.exe
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.pdb
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe.config
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.pdb
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.pdb
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CopyComplete
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.dll
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.dll.config
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe.config
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.pdb
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.dll.config
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csprojResolveAssemblyReference.cache
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.Form1.resources
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.Properties.Resources.resources
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.GenerateResource.cache
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CoreCompileInputs.cache
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CopyComplete
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.exe
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.pdb

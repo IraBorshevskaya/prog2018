@@ -1,0 +1,21 @@
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.csprojResolveAssemblyReference.cache
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.csproj.CoreCompileInputs.cache
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.csprojResolveAssemblyReference.cache
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.csproj.CoreCompileInputs.cache
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.exe.config
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.exe
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.exe
+C:\Users\Pryanya\Desktop\учеба\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.pdb
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.pdb
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.csprojResolveAssemblyReference.cache
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.csproj.CoreCompileInputs.cache
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.pdb
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll.config
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll
+E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll.config
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.dll
