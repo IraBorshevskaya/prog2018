@@ -26,6 +26,20 @@ E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDeliv
 E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CopyComplete
 E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.dll
 E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.dll.config
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe.config
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.pdb
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.dll.config
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csprojResolveAssemblyReference.cache
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.Form1.resources
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.Properties.Resources.resources
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.GenerateResource.cache
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CoreCompileInputs.cache
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.csproj.CopyComplete
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.exe
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.UI\obj\Debug\SushiDelivery.UI.pdb
 C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe.config
 C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.exe
 C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.UI\bin\Debug\SushiDelivery.UI.pdb

@@ -16,6 +16,13 @@ E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDeliv
 E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll.config
 E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll
 E:\Александр\Загрузки\Telegram Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll.config
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.csprojResolveAssemblyReference.cache
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.csproj.CoreCompileInputs.cache
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.pdb
 C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll.config
 C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\bin\Debug\SushiDelivery.dll
 C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery\obj\Debug\SushiDelivery.dll

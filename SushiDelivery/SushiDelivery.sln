@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SushiDelivery", "SushiDeliv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SushiDelivery.UI", "SushiDelivery.UI\SushiDelivery.UI.csproj", "{154102F7-849B-4BF9-A48A-CEF6489226DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SushiDelivery.LicenceGenerator", "SushiDelivery.LicenceGenerator\SushiDelivery.LicenceGenerator.csproj", "{DFD086CC-8D42-4D5D-8E4E-41C4DAF2B108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{154102F7-849B-4BF9-A48A-CEF6489226DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{154102F7-849B-4BF9-A48A-CEF6489226DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{154102F7-849B-4BF9-A48A-CEF6489226DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD086CC-8D42-4D5D-8E4E-41C4DAF2B108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD086CC-8D42-4D5D-8E4E-41C4DAF2B108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD086CC-8D42-4D5D-8E4E-41C4DAF2B108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD086CC-8D42-4D5D-8E4E-41C4DAF2B108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

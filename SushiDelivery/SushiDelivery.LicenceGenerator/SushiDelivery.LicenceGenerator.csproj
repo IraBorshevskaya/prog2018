@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C3B3D16-7EFF-4EA2-942B-85B45331CDB1}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>SushiDelivery</RootNamespace>
-    <AssemblyName>SushiDelivery</AssemblyName>
+    <ProjectGuid>{DFD086CC-8D42-4D5D-8E4E-41C4DAF2B108}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SushiDelivery.LicenceGenerator</RootNamespace>
+    <AssemblyName>SushiDelivery.LicenceGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,13 +31,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,13 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LicenceDto.cs" />
-    <Compile Include="OrderDto.cs" />
-    <Compile Include="Model.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SushiDelivery\SushiDelivery.csproj">
+      <Project>{8c3b3d16-7eff-4ea2-942b-85b45331cdb1}</Project>
+      <Name>SushiDelivery</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

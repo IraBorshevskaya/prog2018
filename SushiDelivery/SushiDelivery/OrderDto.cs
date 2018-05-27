@@ -22,5 +22,9 @@ namespace SushiDelivery
                 return (OrderInformation)Xml.Deserialize(fileStream);
             }
         }
+        public static OrderInformation LoadFromStream(Stream file)
+        {
+            return (OrderInformation)Xml.Deserialize(file);
+        }
     }
 }

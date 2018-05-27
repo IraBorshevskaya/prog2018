@@ -1,0 +1,22 @@
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.LicenceGenerator.exe.config
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.LicenceGenerator.exe
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.LicenceGenerator.pdb
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.dll.config
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.csproj.CopyComplete
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.exe
+C:\Users\Pryanya\Desktop\учеба\4 семестр\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.pdb
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.LicenceGenerator.exe.config
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.LicenceGenerator.exe
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.LicenceGenerator.pdb
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.dll
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.pdb
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\bin\Debug\SushiDelivery.dll.config
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.csproj.CopyComplete
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.exe
+C:\Users\Pryanya\Desktop\SushiDelivery\SushiDelivery.LicenceGenerator\obj\Debug\SushiDelivery.LicenceGenerator.pdb

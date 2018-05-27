@@ -64,11 +64,10 @@ namespace SushiDelivery.UI
             var result = sfd.ShowDialog(this);
             if (result == DialogResult.OK)
             {
-                var dto = GetModelFromUI();             
+                var dto = GetModelFromUI();                
                 OrderDto.WriteToFile(sfd.FileName, dto);
             }
-        }
-        
+        }      
 
         private void button_Click(object sender, EventArgs e)
         {
@@ -106,6 +105,7 @@ namespace SushiDelivery.UI
                 SetModelToUI(dto);
             }
         }
+       
         private void Sushi_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -138,6 +138,29 @@ namespace SushiDelivery.UI
         private void Name_TextChanged(object sender, EventArgs e)
         {
 
-        }        
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            var licenceValid = new LicenceValidator();
+            if (!licenceValid.HasLicense)
+            {
+                MessageBox.Show("Лицензия не найдена, приобретите её, чтобы продолжить работу.", "Внимание!");
+                Application.Exit();
+            }
+            if (!licenceValid.IsValid)
+            {
+                MessageBox.Show("Лицензия просрочена, продлите её, чтобы продолжить работу.", "Внимание!");
+                Application.Exit();
+            }
+            int days = 30;
+            if (licenceValid.IsValid && licenceValid.ValidUntil <= DateTime.Now.AddDays(days))
+            {
+                var day = licenceValid.ValidUntil - DateTime.Now;
+                days = day.Days;
+                var s = days.ToString();
+                MessageBox.Show("До истечения лицензии осталось: " + s + " дней!", "Внимание!");
+            }
+        }
     }
 }
