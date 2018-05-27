@@ -1,0 +1,62 @@
+﻿@model SushiDelivery.OrderInformation
+
+@{
+    ViewBag.Title = "Print";
+}
+
+<h2>Заказ</h2>
+
+<div><p>ФИО: @Model.FullName</p></div>
+<div><p>Адрес: @Model.Address</p></div>
+<div><p>Цена: @Model.Price</p></div>
+<div><p>Валюта: @Model.Currency</p></div>
+
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>
+            Суши
+        </th>
+        <th>
+            Дополнения к суши
+        </th>
+        <th>
+            Напитки
+        </th>
+    </tr>
+    <tbody>
+        @foreach (var br in Model.Orders)
+        {
+            <div></div>
+            <tr>
+                <td style="border:1px solid black">
+                    <fieldset>
+                        <b>
+                            @br.Sushi.NameSushi
+                            @br.Sushi.NumberSushi
+                        </b>
+                    </fieldset>
+                </td>
+                <td style="border:1px solid black">
+                    <fieldset>
+                        <b>
+                            @br.Sushi.Addition
+                            @br.Sushi.NumberAddition
+                        </b>
+                    </fieldset>
+                </td>
+                <td style="border:1px solid black">
+                    <fieldset>
+                        <b>
+                            @br.Drinks.NameDrinks
+                            @br.Drinks.NumberDrinks
+
+                        </b>
+                    </fieldset>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div><b>Количество столовых приборов:</b></div>
+<div><p>@Model.NumberСutlery</p></div>
